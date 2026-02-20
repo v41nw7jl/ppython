@@ -1,11 +1,12 @@
-#Write a program to create a dictionary 'Student' to store the data of 10 students, with the key as 'rollno',
 #'name', 'marks' and do the following: i. Accept the details of 10 students and display it.
 #ii. Search & Display the details of a student on the basis of its rollno.
 #iii. Display the details of topper student.
 
-student={"rollno":("name","marks")}
-for i in range(11):
-    rollno=int(input("Enter you roll no"))
+stu={101:['Amit',90],102:['Shaam',95]}
+
+for i in range(2):
+    rollno=int(input("Enter your roll no"))
     name=input("Enter your name")
     marks=int(input("Enter your marks"))
-    
+    print("rollno:",rollno,":","name:",name,":","marks:",marks)
+print(stu(rollno))
